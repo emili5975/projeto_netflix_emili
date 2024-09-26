@@ -1,4 +1,19 @@
 body{
     background-color: #000000;
     color: rgb(255, 0, 0);
+    margin: 0px ;
+    font-family:"Fredoka", sans-serif;}
+header{border-bottom: solid 2px rgb(255, 255, 255);
+       padding: 20px;
+       font-size: 35px ;
+       color: rbg (255,20,147); }
+.chamada{background-color: rgb(255, 255, 255);
+         padding-bottom : 80px;
+         padding-top : 80px;
+
+
+
+
+
+
 }
