@@ -10,10 +10,15 @@ header{border-bottom: solid 2px rgb(255, 255, 255);
 .chamada{background-color: rgb(255, 255, 255);
          padding-bottom : 80px;
          padding-top : 80px;
-
-
-
-
-
-
+         Font-family: "Playfair Display", serif
+         display: flex;
+         justify-content : center;}
+         .chamada-texto{ margin-rigth:5%}
+         h1 {font-size :40px;}
+         p {font-size: 25px;}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
+
