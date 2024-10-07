@@ -10,15 +10,26 @@ header{border-bottom: solid 2px rgb(255, 255, 255);
 .chamada{background-color: rgb(255, 255, 255);
          padding-bottom : 80px;
          padding-top : 80px;
-         Font-family: "Playfair Display", serif
+         Font-family: "Playfair Display", serif;
          display: flex;
          justify-content : center;}
-         .chamada-texto{ margin-rigth:5%}
+
+         .chamada-texto{ margin-right:5%}
          h1 {font-size :40px;}
          p {font-size: 25px;}
 .categoria-videos{
     display: flex;
     overflow-x: auto;
-    gap: 10px;
-}
+    gap: 10px;}
+.categoria {padding-left: 20px;
+           padding-right: 20px;
+           margin-top: 50px; }
+.categoria-videos img {  
+                        opacity:0.5;
+                        height:200px; }
+.categoria-videos img :hover { 
+                  opacity: 6.0;
+                  border: 3px solid rgb(0, 128, 255); }
+.categoria h2 {color : rgb(0, 116, 233); }
+
 
